@@ -64,6 +64,7 @@
     </Compile>
     <Compile Include="Model\CrmContext.cs" />
     <Compile Include="Model\Master.cs" />
+    <Compile Include="Model\Order.cs" />
     <Compile Include="Model\ProcessedCustomer.cs" />
     <Compile Include="Model\ServiceKind.cs" />
     <Compile Include="Model\ServiceType.cs" />
