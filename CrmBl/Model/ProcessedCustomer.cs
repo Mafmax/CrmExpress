@@ -13,10 +13,10 @@ namespace CrmBl.Model
         public string Surname { get; set; }
         public string Patronymic { get; set; }
         public string Phone { get; set; }
-        public ICollection<ServiceKind> ServiceKinds { get; set; }
+        public virtual ICollection<ServiceKind> ServiceKinds { get; set; }
         public decimal Cash { get; set; }
 
-        public ICollection<Master> Masters { get; set; }
+        public virtual ICollection<Master> Masters { get; set; }
 
         public DateTime Date { get; set; }
         public ProcessedCustomer()

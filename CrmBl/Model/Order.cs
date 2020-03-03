@@ -14,13 +14,13 @@ namespace CrmBl.Model
         public string Surname { get; set; }
         public string Patronymic { get; set; }
         public string Phone { get; set; }
-        public ICollection<ServiceKind> ServiceKinds { get; set; }
+        public virtual ICollection<ServiceKind> ServiceKinds { get; set; }
 
         public decimal AllPrice { get; set; }
-        public ICollection<Master> PreferMasters { get; set; }
+        public virtual ICollection<Master> PreferMasters { get; set; }
 
         // Предпочитаемая дата исполнения заявки.
-        public ICollection<DateTime> PreferDates { get; set; }
+        public virtual ICollection<DateTime> PreferDates { get; set; }
 
         // Дата оформления заявки.
         public DateTime Date { get; set; }
