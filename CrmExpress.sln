@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmBl", "CrmBl\CrmBl.csproj", "{D389B5EB-63AF-4B10-87F3-95B22CF12B77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D389B5EB-63AF-4B10-87F3-95B22CF12B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D389B5EB-63AF-4B10-87F3-95B22CF12B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D389B5EB-63AF-4B10-87F3-95B22CF12B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D389B5EB-63AF-4B10-87F3-95B22CF12B77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00E0A130-6608-477B-8A9F-711810E6CB8B}
+	EndGlobalSection
+EndGlobal
