@@ -62,6 +62,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\CrmContext.cs" />
     <Compile Include="Model\Master.cs" />
     <Compile Include="Model\ServiceKind.cs" />
     <Compile Include="Model\ServiceType.cs" />
