@@ -13,6 +13,8 @@ namespace CrmBl.Model
         public virtual ICollection<ServiceType> ServiceTypes { get; set; }
 
         public virtual ICollection<ServiceKind> ServiceKinds { get; set; }
+
+        public virtual ICollection<Review> Reviews { get; set; }
         public string Description { get; set; }
 
 
@@ -23,6 +25,7 @@ namespace CrmBl.Model
         {
             ServiceTypes = new List<ServiceType>();
             ServiceKinds = new List<ServiceKind>();
+            Reviews = new List<Review>();
         }
     }
 }
